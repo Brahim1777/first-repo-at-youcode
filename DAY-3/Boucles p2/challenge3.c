@@ -5,9 +5,9 @@ int main() {
     int i;
     int p;
     printf("Entrez un entier n: "); 
-    scanf("%d", &n); 
+    scanf("%d", &n);   
 
-    
+
     for ( i = 2; i <= n; i++) {
          p = 1; 
 
