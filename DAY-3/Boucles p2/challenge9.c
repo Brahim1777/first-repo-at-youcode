@@ -8,11 +8,11 @@ int main() {
     printf("Entrez la base (positive) : ");
     scanf("%d", &base); 
 
-    printf("Entrez l'exposant (non négatif) : ");
+    printf("Entrez l'exposant (non negatif) : ");
     scanf("%d", &exposant); 
 
     if (base < 0 || exposant < 0) {
-        printf("Erreur : La base doit être positive et l'exposant non négatif.\n");
+        printf("Erreur : La base doit être positive et l'exposant non negatif.\n");
         return 1;
     }
 

@@ -6,7 +6,7 @@ int main() {
     int i;
     int element;
     int  trouve ;
-    printf("Entrez le nombre d'éléments: "); 
+    printf("Entrez le nombre d'elements: "); 
     scanf("%d", &n); 
 
     
@@ -16,7 +16,7 @@ int main() {
     }
 
     
-    printf("Entrez l'élément à rechercher: "); 
+    printf("Entrez l'element à rechercher: "); 
     scanf("%d", &element); 
       trouve = 0; 
     for ( i = 0; i < n; i++) {
@@ -28,9 +28,9 @@ int main() {
 
    
     if (trouve) {
-        printf("L'élément %d est présent dans le tableau.\n", element); 
+        printf("L'element %d est présent dans le tableau.\n", element); 
     } else {
-        printf("L'élément %d n'est pas présent dans le tableau.\n", element); 
+        printf("L'element %d n'est pas présent dans le tableau.\n", element); 
     }
 
     return 0;

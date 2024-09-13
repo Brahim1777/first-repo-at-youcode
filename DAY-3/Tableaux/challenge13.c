@@ -9,7 +9,7 @@ int main() {
 
    
     for ( i = 0; i < n; i++) {
-        printf("Entrez l'élément %d: ", i + 1);
+        printf("Entrez l'element %d: ", i + 1);
         scanf("%d", &tableau[i]); 
     }
 

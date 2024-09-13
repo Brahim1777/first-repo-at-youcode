@@ -8,7 +8,7 @@ int main() {
     int tableau[n]; 
 
     for (int i = 0; i < n; i++) {
-        printf("Entrez l'élément %d: ", i + 1); 
+        printf("Entrez l'element %d: ", i + 1); 
         scanf("%d", &tableau[i]); 
     }
 
@@ -22,7 +22,7 @@ int main() {
     }
 
     
-    printf("Tableau résultant: "); 
+    printf("Tableau resultant: "); 
     for (int i = 0; i < n; i++) {
         printf("%d ", tableau[i]); 
     }

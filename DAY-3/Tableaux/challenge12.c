@@ -4,13 +4,13 @@ int main() {
     int n; // Déclaration de la variable pour le nombre d'éléments
      int tableau[n];
      int i;
-    printf("Entrez le nombre d'éléments: "); 
+    printf("Entrez le nombre d'elements: "); 
     scanf("%d", &n); 
 
     int tableau[n];
     
     for ( i = 0; i < n; i++) {
-        printf("Entrez l'élément %d: ", i + 1); 
+        printf("Entrez l'element %d: ", i + 1); 
         scanf("%d", &tableau[i]);
     }
 

@@ -6,7 +6,7 @@ int main() {
      int valeurARemplacer, nouvelleValeur;
      int i;
 
-    printf("Entrez le nombre d'éléments: ");
+    printf("Entrez le nombre d'elements: ");
     scanf("%d", &n); 
   
     for (int i = 0; i < n; i++) {
@@ -26,7 +26,7 @@ int main() {
         }
     }
 
-    printf("Tableau modifié: ");
+    printf("Tableau modifie: ");
     for ( i = 0; i < n; i++) {
         printf("%d ", tableau[i]); 
     }

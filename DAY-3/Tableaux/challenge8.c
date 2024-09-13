@@ -16,7 +16,7 @@ int main() {
     printf("\n"); 
 
     
-    printf("Tableau copié : ");
+    printf("Tableau copie : ");
     for (int i = 0; i < 5; i++) {
         printf("%d ", copie[i]); 
     }
